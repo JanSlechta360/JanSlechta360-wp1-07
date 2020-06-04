@@ -9,7 +9,7 @@
     
 <?php
 
-$age = 16
+$age = 16;
 
 /*
 if($age > 15) {
@@ -19,7 +19,7 @@ if($age > 15) {
 }
 */
 
-if (($age <= 15) || ($age >= 65)) {
+if(($age <= 15) || ($age >= 65)) {
     $enteryFee = 50;
 } else {  
     $enteryFee = 100;
