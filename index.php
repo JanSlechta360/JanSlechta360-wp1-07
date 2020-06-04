@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport">
     <title></title>
-</head>
-<body>
+</head> 
+      <body>
     
 <?php
 
 $age = 16
+
 /*
 if($age > 15) {
     $enteryFee = 100;
 } else {
     $enteryFee = 50;
-}*/   
+}
+*/
+
 if (($age <= 15) || ($age >= 65)) {
     $enteryFee = 50;
 } else {  
@@ -25,5 +28,5 @@ if (($age <= 15) || ($age >= 65)) {
 ?>
 <p> Because of your age <?= $age?>, so u gona pay for the entry fee <?= $entryFee ?> Czk. </p>
 
-</body>
+      </body>
 </html>
