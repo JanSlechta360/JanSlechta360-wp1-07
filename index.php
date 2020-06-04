@@ -9,7 +9,7 @@
     
 <?php
 
-$age = 16;
+$age = 66;
 
 /*
 if($age > 15) {
@@ -26,7 +26,7 @@ if(($age <= 15) || ($age >= 65)) {
 }
 
 ?>
-<p> Because of your age <?= $age ?>, so u gona pay for the entry fee <?= $entryFee ?> Czk. </p>
+<p> Because of your age <?= $age ?>, so u gona pay for the entry fee <?= $enteryFee ?> Czk. </p>
 
       </body>
 </html>
